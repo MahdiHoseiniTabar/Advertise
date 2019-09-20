@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".AddDialogFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/edit_text_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="@string/hello_blank_fragment"
+        android:textColor="@color/colorAccent"/>
+    <EditText
+        android:id="@+id/edit_text_description"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="description"
+        android:textColor="@color/colorAccent"/>
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/checkbox_vip"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:text="VIP"/>
+
+
+</LinearLayout>

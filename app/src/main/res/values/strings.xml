@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ِDivar</string>
+    <string name="divar">Divar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">title</string>
+</resources>
